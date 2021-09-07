@@ -13,6 +13,12 @@ html, body {
     background-color: #DCB8E9;
 }
 
+section {
+    display: inline-block;
+    margin: auto;
+    margin-top: 20px;
+}
+
 h1 {
     font-size: 3em;
 }
