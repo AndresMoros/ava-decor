@@ -316,3 +316,70 @@ footer {
 .works ul {
     text-align: left;
 }
+
+/* CONTACT PAGE */
+
+.cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+}
+
+.contact-box h1 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.contact-box {
+    display: block;
+    margin: auto;
+    width: 80%;
+    background-color: #AF84BE;
+    border: 2px solid #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #633375;
+}
+
+.contact-box__img {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.contact-box__img img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+.contact-box__text {
+    float: right;
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+}
+
+.contact-box__buttom {
+    display: block;
+    margin: 10px auto;
+    padding: 3% 6%;
+    background-color: #4CAF50;
+    border: 3px solid #FFF;
+    border-radius: 5px;
+    transition: 1.0s;
+}
+
+.contact-box__buttom:hover {
+    box-shadow: 0 0 10px 0 #000;
+}
+
+.contact-box__buttom a {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 0%;
+    text-decoration: none;
+}
