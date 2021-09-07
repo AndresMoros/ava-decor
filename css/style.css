@@ -223,23 +223,22 @@ footer {
     display: inline-block;
     margin: auto;
     text-align: justify;
-    width: 600px;
 }
 
 .events-service {
     display: inline-block;
     width: 700px;
-    margin: auto;
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
-.events-service h2 {
+    margin: 30px auto;
+    margin-bottom: 0;
     padding: 10px;
+    background-color: #AF84BE;
+    border: 2px solid #FFF;
+    border-radius: 5px;
 }
 
 .events-service p {
     text-align: justify;
+    padding: 5px;
 }
 
 /* WORKS */
@@ -328,19 +327,19 @@ footer {
     width: 80%;
 }
 
-.contact-box h1 {
-    text-align: center;
-    padding: 10px 0;
-}
-
 .contact-box {
     display: block;
-    margin: auto;
+    margin: 10px auto;
     width: 80%;
     background-color: #AF84BE;
     border: 2px solid #FFF;
     border-radius: 5px;
     box-shadow: 0 0 10px 0 #633375;
+}
+
+.contact-box h1 {
+    text-align: center;
+    padding: 10px 0;
 }
 
 .contact-box__img {
@@ -353,7 +352,7 @@ footer {
 .contact-box__img img {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 100%;
 }
 
 .contact-box__text {
