@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <!--HEAD-->
     <head>
         <title>
             AVA DECOR
@@ -19,7 +20,10 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
+        <!--HEAD-->
+        <!--BODY-->
     <body>
+        <!-- HEADER -->
         <header>
             <nav>
                 <ul class="nav__ul">
@@ -30,15 +34,29 @@
                 </ul>
             </nav>
         </header>
+        <!-- HEADER -->
         <!-- SECTION -->
         <section>
             <div class="pageDescription">
                 <h1>Trabajos de AVA DECOR</h1>
-                <p>En esta sección se muestran los trabajos y servicios que hemos realizado con datos al respecto. De todas formas para obtener más información relacionada a nuestro servicios o consultas para un presupuesto, puedes contactarnos vía Facebook, Instagram o WhatsApp. Información de contacto al final de la página o la pestaña de Contacto.</p>
+                <p>En esta sección se muestran los trabajos y servicios que hemos realizado con datos al respecto. 
+                    De todas formas para obtener más información relacionada a nuestro servicios o consultas para 
+                    un presupuesto, puedes contactarnos vía Facebook, Instagram, WhatsApp.
+                    <br> 
+                    Información de contacto al final de la página o la pestaña de Contacto.</p>
+                <div class="categories-container">
+                    <details class="categories">
+                        <summary>Categorias</summary>
+                        <p><a href="#piñata">Piñatas</a></p>
+                        <p><a href="#eventos">Eventos espaciales</a></p>
+                        <p><a href="#servicio-alimentacion">Servicios de alimentación</a></p>
+                    </details>
+                </div>
+                
             </div>
-            <article class="works">
-                <h2>Piñatas para cumpleaños</h2>
+            <article id="piñata" class="works">
                 <div class="works__div">
+                    <h2>Piñatas</h2>
                     <p>Estas son algunas de las piñatas con temáticas infantiles que hemos realizado, las hay de diferentes tamaños.</p>
                 <img src="images/works/piñata-de-cars.jpg" alt="pinata - grande - cars - infantil">
                 <img src="images/works/piñata-de-sirenita.jpg" alt="pinata - mediana - sirenita - ariel">
@@ -55,12 +73,8 @@
                     <li>Decoración de mesa</li>
                 </ul>
                 </details>
-                </div>
-            </article>
-            <article class="works">
-                <h2>Piñatas de botella</h2>
-                <div class="works__div">
-                    <p>Estas son algunas de las piñatas con temáticas de cerveza que hemos realizado, las hay de diferentes tamaños.</p>
+                <br>
+                <p>Estas son algunas de las piñatas con temáticas de cerveza que hemos realizado, las hay de diferentes tamaños.</p>
                 <img src="images/works/piñata-de-cerveza1.jpg" alt="pinata - grande - cerveza - evento">
                 <img src="images/works/piñata-de-cerveza.jpg" alt="pinata - mediana - cerveza - evento">
                 <img src="images/works/piñata-de-cerveza2.jpg" alt="pinata - pequena - cerveza - evento">
@@ -77,9 +91,9 @@
                 </details>
                 </div>
             </article>
-            <article class="works">
-                <h2>Fiesta de XV años</h2>
+            <article id="eventos" class="works">
                 <div class="works__div">
+                    <h2>Eventos especiales</h2>
                     <p>Estos son algunos de los eventos de XV años que en AVA DECOR hemos organizado.</p>
                 <img src="images/works/mesa-xv.jpg" alt="fiesta - 15 - anos - XV - quince - primaveras">
                 <img src="images/works/15-años.jpg" alt="15 - anos - reunion - XV - torta - pastel - ava decor">
@@ -100,8 +114,8 @@
                 </details>
                 </div>
             </article>
-            <article class="works">
-                <h2>Servicio de alimentación</h2>
+            <article  id="servicio-alimentacion" class="works">
+                <h2>Servicios de alimentación</h2>
                 <div class="works__div">
                     <p>En este trabajo nos dedicamos a entregar una deliciosa comida con bebidas y una presentación agradable.</p>
                 <img src="images/works/servicio-alimentación.jpg" alt="alimentacion - servicio - arroz - pollo - decoracion - organizacion">
@@ -124,6 +138,7 @@
             </article>
         </section>
         <!-- SECTION -->
+        <!--FOOTER-->
         <footer>
             <h3 class="social-media">Redes sociales de AVA DECOR</h3>
             <ul class="social-media__ul">
@@ -133,5 +148,7 @@
             </ul>
             <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a>
         </footer>
+        <!--FOOTER-->
     </body>
+    <!--BODY-->
 </html>
